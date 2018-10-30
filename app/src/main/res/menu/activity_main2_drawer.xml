@@ -22,14 +22,14 @@
             android:icon="@drawable/ear"
             android:id="@+id/nav_slideshow"
             android:title="Hearing Test" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/water"
-            android:title="Water Intake" />
-        <item
-            android:id="@+id/nav_caffine"
-            android:icon="@drawable/coffeecup"
-            android:title="Caffine Intake" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/water"-->
+            <!--android:title="Water Intake" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_caffine"-->
+            <!--android:icon="@drawable/coffeecup"-->
+            <!--android:title="Caffine Intake" />-->
 
     </group>
 
