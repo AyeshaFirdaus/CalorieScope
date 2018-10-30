@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:icon="@drawable/calculator"
+            android:id="@+id/nav_bmi"
+            android:title="BMI/WHR"
+                
+            />
+        <item
+            android:icon="@drawable/diet"
+            android:id="@+id/nav_diet"
+            android:title="Diet Plan"
+            
+            />
+        <item
+            android:icon="@drawable/ear"
+            android:id="@+id/nav_slideshow"
+            android:title="Hearing Test" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/water"
+            android:title="Water Intake" />
+        <item
+            android:id="@+id/nav_caffine"
+            android:icon="@drawable/coffeecup"
+            android:title="Caffine Intake" />
+
+    </group>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/newspaper"
+                android:title="News" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/presentation"
+                android:title="Videos" />
+        </menu>
+    </item>
+
+</menu>
